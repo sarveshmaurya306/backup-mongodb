@@ -1,0 +1,4 @@
+#use crontab -e to edit crontab file
+
+# paste (this will take backup at every 9:00AM)
+00 09 * * * bash /home/${USER}/Desktop/backupdb.sh > /home/$USER/Desktop/output.log  
