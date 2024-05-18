@@ -12,4 +12,4 @@
 ***eg: mongo_uri: mongodb+srv://ABC:123@abc.xyz.mno.net/<PROJECT_NAME>***
 
 ### 2) To restore
-  - run : mongorestore --gzip --archive={backup_file_path}
+  - run : mongorestore --gzip --archive={backup_file_path} --uri="{mongodb_uri_where_to_put}"
